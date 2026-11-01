@@ -1,0 +1,15 @@
+{
+  "name": "vendora",
+  "version": "1.0.0",
+  "description": "Vendora - A Multi-Vendor Local Marketplace",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run build && npm run preview"
+  },
+  "keywords": ["marketplace", "multi-vendor", "groceries", "local"],
+  "author": "Vendora",
+  "license": "MIT"
+}
